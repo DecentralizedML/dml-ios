@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		935C8392219F137900DCFE30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935C8391219F137900DCFE30 /* Images.xcassets */; };
+		935C8395219F20B800DCFE30 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C8394219F20B800DCFE30 /* RoundedCorners.swift */; };
 		9383A202219F06D500B1F46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383A201219F06D500B1F46F /* AppDelegate.swift */; };
 		9383A204219F06D500B1F46F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383A203219F06D500B1F46F /* ViewController.swift */; };
 		9383A207219F06D500B1F46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9383A205219F06D500B1F46F /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		935C8391219F137900DCFE30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		935C8394219F20B800DCFE30 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		9383A1FE219F06D500B1F46F /* DMLMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMLMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9383A201219F06D500B1F46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9383A203219F06D500B1F46F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		935C8393219F208800DCFE30 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				935C8394219F20B800DCFE30 /* RoundedCorners.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		9383A1F5219F06D500B1F46F = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		9383A200219F06D500B1F46F /* DMLMobile */ = {
 			isa = PBXGroup;
 			children = (
+				935C8393219F208800DCFE30 /* Configuration */,
 				9383A201219F06D500B1F46F /* AppDelegate.swift */,
 				9383A203219F06D500B1F46F /* ViewController.swift */,
 				9383A205219F06D500B1F46F /* Main.storyboard */,
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9383A204219F06D500B1F46F /* ViewController.swift in Sources */,
+				935C8395219F20B800DCFE30 /* RoundedCorners.swift in Sources */,
 				9383A202219F06D500B1F46F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

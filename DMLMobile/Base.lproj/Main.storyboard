@@ -24,64 +24,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="ehU-SR-x1m">
-                                <rect key="frame" x="154" y="187" width="67" height="67"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoWhite" translatesAutoresizingMaskIntoConstraints="NO" id="ehU-SR-x1m">
+                                <rect key="frame" x="171" y="36" width="33" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="EP2-dV-MGa"/>
+                                    <constraint firstAttribute="width" constant="33" id="INo-wS-1jT"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytH-jG-5Iu">
-                                <rect key="frame" x="89" y="294" width="196" height="66"/>
+                                <rect key="frame" x="40.5" y="89" width="295.5" height="98.5"/>
                                 <string key="text">Decentralized 
 Machine Learning</string>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="36"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get paid for your data, on your terms. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHa-f6-ljb">
-                                <rect key="frame" x="49" y="368" width="277" height="22"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                <color key="textColor" red="0.67843137254901964" green="0.73725490196078436" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="32" y="195.5" width="312" height="25"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiC-PP-jBD">
-                                <rect key="frame" x="142" y="613" width="90" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="sRd-eS-WbW"/>
-                                    <constraint firstAttribute="height" constant="30" id="wsc-dp-SGy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
-                                <state key="normal" title="Log in">
-                                    <color key="titleColor" red="0.27450980390000002" green="0.8980392157" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tet-0M-acj">
-                                <rect key="frame" x="54" y="520" width="267" height="52"/>
-                                <color key="backgroundColor" red="0.27450980390000002" green="0.8980392157" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="30" y="583" width="315" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="1Qn-mX-oJ1"/>
+                                    <constraint firstAttribute="height" constant="60" id="1Qn-mX-oJ1"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
-                                <state key="normal" title="Sign up">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" red="0.23690484464168549" green="0.50445055961608887" blue="0.92946720123291016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="25"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LandingImageCircles" translatesAutoresizingMaskIntoConstraints="NO" id="Quz-vb-cGm">
+                                <rect key="frame" x="56" y="252.5" width="263" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="263" id="V7P-Mv-5dD"/>
+                                    <constraint firstAttribute="height" constant="240" id="ohd-gA-rli"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.059944223612546921" green="0.17811733484268188" blue="0.45108142495155334" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.23529411764705882" green="0.50588235294117645" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="ytH-jG-5Iu" firstAttribute="top" secondItem="ehU-SR-x1m" secondAttribute="bottom" constant="40" id="KHN-on-DhC"/>
+                            <constraint firstItem="Quz-vb-cGm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IGK-yL-mAg"/>
+                            <constraint firstItem="ytH-jG-5Iu" firstAttribute="top" secondItem="ehU-SR-x1m" secondAttribute="bottom" constant="20" id="KHN-on-DhC"/>
                             <constraint firstItem="ytH-jG-5Iu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kew-NA-jeP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tet-0M-acj" secondAttribute="trailing" constant="54" id="Rtz-eS-5Wi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Tet-0M-acj" secondAttribute="bottom" constant="24" id="O21-oy-6fv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tet-0M-acj" secondAttribute="trailing" constant="30" id="Rtz-eS-5Wi"/>
                             <constraint firstItem="bHa-f6-ljb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T7u-cN-ZhW"/>
-                            <constraint firstItem="Tet-0M-acj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="TCC-mG-bJ0"/>
+                            <constraint firstItem="Tet-0M-acj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="TCC-mG-bJ0"/>
                             <constraint firstItem="ehU-SR-x1m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vub-I0-1bM"/>
-                            <constraint firstItem="iiC-PP-jBD" firstAttribute="top" secondItem="Tet-0M-acj" secondAttribute="bottom" constant="41" id="WMB-lu-CK7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iiC-PP-jBD" secondAttribute="bottom" constant="24" id="Y5h-k7-zQ9"/>
                             <constraint firstItem="bHa-f6-ljb" firstAttribute="top" secondItem="ytH-jG-5Iu" secondAttribute="bottom" constant="8" id="Yy4-Tr-iUU"/>
-                            <constraint firstItem="iiC-PP-jBD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wKD-AP-A9H"/>
-                            <constraint firstItem="ehU-SR-x1m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="167" id="ybL-xK-mJc"/>
+                            <constraint firstItem="Quz-vb-cGm" firstAttribute="top" secondItem="bHa-f6-ljb" secondAttribute="bottom" constant="32" id="mMF-RA-dLO"/>
+                            <constraint firstItem="ehU-SR-x1m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="ybL-xK-mJc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -110,6 +110,7 @@ Machine Learning</string>
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="67" height="67"/>
+        <image name="LandingImageCircles" width="263" height="240"/>
+        <image name="logoWhite" width="67" height="67"/>
     </resources>
 </document>
