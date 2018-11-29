@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import ReSwift
 
-class ViewController: UIViewController {
-
+class LandingViewController: UIViewController, StoreSubscriber {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        MainStore.instance.subscribe(self)
+    }
+    
+    func newState(state: AppState) {
+        print(state.counter)
+    }
+    
+    @IBAction func increment(sender: UIButton) {
+        MainStore.instance.dispatch(
+            CounterIncrement()
+        )
     }
 
     override func didReceiveMemoryWarning() {
