@@ -1,0 +1,6 @@
+framework module Pods_DMLMobileUITests {
+  umbrella header "Pods-DMLMobileUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
